@@ -1,0 +1,80 @@
+﻿body {
+}
+
+.vertical-text {
+    writing-mode: vertical-lr; /* vertical right-to-left */
+    text-orientation: upright;
+}
+a {
+    text-decoration: none; /* アンダーラインをなくす */
+    color: black; /* リンクのテキストカラーを変更 */
+}
+
+    a:hover {
+        color: black; /* ホバー時のテキストカラーを変更 */
+    }
+#imageContainer {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#image {
+    max-width: 100%;
+    height: 100%;
+}
+
+#video-container {
+    position: fixed;
+/*    top: 0;*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#video {
+    width: 100%;
+    height: auto;
+}
+
+#vedeo1 {
+    background: #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-wrap {
+    position: relative;
+}
+
+video {
+    display: block;
+    margin: 0 0 0 auto;
+}
+
+p {
+    font-family: serif;
+    color: #fff;
+    font-size: 400%;
+    position: absolute;
+    left: 30%;
+    top: 200px;
+    z-index: 1;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+/*.container-fluid {
+    height: 100%;*/ /* コンテナの高さを100%に設定 */
+/*}*/
